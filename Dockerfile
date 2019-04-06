@@ -20,17 +20,3 @@ COPY ./app /app
 # This will prevent ROOT access from being used to compromise application security
 RUN adduser -D dockeruser
 USER dockeruser
-
-##RUN echo "Creating base image..."
-#COPY hello.py /hello.py
-#CMD ["python", "/hello.py"]
-#
-#
-#EXPOSE 8000
-#
-#
-## Copy the rest of the application's code
-#COPY . /usr/src/app
-#
-## Run the app
-#CMD ["./run_app.sh"]

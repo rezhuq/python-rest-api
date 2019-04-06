@@ -30,3 +30,6 @@ Frontend: `django`
 1. Create `.flake8` file in `app` directory and create exclusions for linting check
 1. Go to https://travis-ci.org and log in with GitHub account
 1. Pushing the files to Github would commence the CI build process
+1. Re-build `docker-compose build`
+
+## Core Application
