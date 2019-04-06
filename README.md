@@ -1,4 +1,4 @@
-# API-BACKEND
+# Python REST API Demo
 
 REST API providing basic functionality for managing user profiles.
 
@@ -22,3 +22,4 @@ Frontend: `django`
 1. Build `docker-compose build`
 1. Install Django project `docker-compose run app sh -c "django-admin.py startproject app ."`
 
+## CI setup using TravisCI
