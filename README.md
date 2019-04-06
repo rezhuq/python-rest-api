@@ -14,7 +14,11 @@ Frontend: `django`
 1. List all docker images `docker images ls`
 1. List all docker containers `docker ps -a`
 
-## Dockerfile
+## Dockerfile & Docker-Compose
 1. Build a custom image containing Python 3.7 using `docker build -t python-rest-api-image .`
+1. Verify that the image has been built `docker images`
 1. Run the image `docker run python-rest-api-image`
-1. 
+1. Create the `docker-compose.yml` file
+1. Build `docker-compose build`
+1. Install Django project `docker-compose run app sh -c "django-admin.py startproject app ."`
+
