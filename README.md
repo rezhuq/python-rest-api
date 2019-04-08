@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/rezhuq/python-rest-api.svg?branch=python-rest-api)](https://travis-ci.org/rezhuq/python-rest-api)
-# :snake: Python REST API Demo
+# Python REST API Demo
 
 REST API providing basic functionality for managing user profiles.
 
@@ -11,7 +10,7 @@ Frontend: `django`
 
 1. **OPTIONAL:** Install Docker
 1. **OPTIONAL:** Delete all images `docker rmi -f $(docker images -q)`
-1. **OPTIONAL:** Delete all containers `docker rm -f $(docker ps -a -q)`
+1. **OPTIONAL:** Dekete all containers `docker rm -f $(docker ps -a -q)`
 1. List all docker images `docker images ls`
 1. List all docker containers `docker ps -a`
 
@@ -23,13 +22,4 @@ Frontend: `django`
 1. Build `docker-compose build`
 1. Install Django project `docker-compose run app sh -c "django-admin.py startproject app ."`
 
-## CI setup using TravisCI and Flake8 (for linting)
-
-1. Create the `.travis.yml` file
-1. Add `flake8` to `requirements.txt`
-1. Create `.flake8` file in `app` directory and create exclusions for linting check
-1. Go to https://travis-ci.org and log in with GitHub account
-1. Pushing the files to Github would commence the CI build process
-1. Re-build `docker-compose build`
-
-## Core Application
+## CI setup using TravisCI
